@@ -1,0 +1,71 @@
+/*
+ * Author: Preston Wang-Stosur-Bassett
+ * Date: Apr 20, 2018
+ * Description: Define the styles for ningwang.info
+*/
+
+header {
+  margin-top: 10px;
+  padding: 25px;
+  background-color: #fff;
+}
+
+#branding {
+  width: 10%;
+  padding-left: 20px;
+}
+
+.nav {
+  float: right;
+  margin-top: 2.5%;
+}
+
+.nav-link {
+  color: #000;
+  font-size: 1.3em;
+  text-decoration: none;
+  margin-left: 32.5px;
+  margin-right: 32.5px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+
+.nav .active,
+.nav-link:hover {
+  color: #000;
+   box-shadow: inset 0 0px 0 white, inset 0 -1px 0 black;
+}
+
+#banner {
+  background: linear-gradient(to right, #ABD0C1 , #66B29D);
+  padding: 60px;
+  color: #fff;
+}
+
+#banner .emphasis {
+  color: #F8E980;
+  font-weight: 600;
+}
+
+.selected-works {
+  padding: 35px;
+}
+
+.section-title {
+
+}
+
+footer {
+  margin-top: 15px;
+}
+
+.footer-text {
+  opacity: 0.8;
+  font-weight: 300;
+  color: #000;
+}
+
+.footer-text:hover {
+  text-decoration: none;
+  color: #000;
+}
